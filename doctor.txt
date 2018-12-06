@@ -1,0 +1,5 @@
+1	 morol	 40	 Spine	 10	 Dhaka	 1000	 3.00_PM_to_7.00_PM
+6	 morol1	 48	 ICU	 8	 Chittagong	 800	 3.30_PM_to_6.30_PM
+9	 Ishrat	 47	 Gastroenterology	 5	 Sylhet	 1000	 2.30_PM_to_5.30_PM
+10	 jinnat	 43	 Radiology	 8	 Netrokona	 500	 4.00_pm_to_7.00_pM
+ 

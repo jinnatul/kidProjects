@@ -1,0 +1,10 @@
+1	 Barsha_Akter	 Nurse	 11500	 6.00am_3.00pm
+2	 Rodela_Akter	 Nurse	 11200	 3.00pm_8.00pm
+3	 Laboni_Akter	 Nurse	 11000	 8.00pm_2.00am
+4	 Orpa_Akter	 Nurse	 10900	 2.00am_6.00am
+6	 Nawrin_Akter	 Nurse	 10500	 3.00pm_9.00pm
+8	 arif_mia	 cleaner	 2000	 1.00pm_5.00pm
+9	 Kabir_Islam	 word_boy	 6700	 8.00pm_2.00am
+10	 Anik_Mia	 word_boy	 6500	 2.00am_6.00am
+11	 Rohan_Mia	 cleaner	 4000	 6.00am_2.00pm
+12	 Sumi_Akter	 cleaner	 3800	 2.00pm_10.00pm
