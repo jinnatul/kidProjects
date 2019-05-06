@@ -1,19 +1,21 @@
 Submitted to:
-                          Lamisha Rawshan 
-                          Lecturer, Department of software engineering
-                          Daffodil International University 
+=
+Lamisha Rawshan 
+Lecturer, Department of software engineering
+Daffodil International University 
 
 Submitted by: 
-                         Md: Zinnatul Islam Morol
-                         ID: 171-35-1957
-                         Section: C 
-                         Course code: SWE231 
+=
+Md: Zinnatul Islam Morol
+ID: 171-35-1957
+Section: C 
+Course code: SWE231 
 
 Document Approval:    
-
+==
 
 Letter of transmittal
-
+=
 
 10th December 2017
 Lamisha Rawshan
@@ -22,6 +24,7 @@ Faculty of Science and Information Technology
 Daffodil International University
 
 Subject: Submission of the project documentation on “Hospital Management System”.
+=
 
 Dear Madam,
 With due respect, I am a student of SWE231 Software Engineering Project-1,  3 credit course under the department of Software Engineering, are submitting the project documentation on the project named “Hospital Management System”. The report is prepared based on the system requirements analysis and designing of the software as well as the testing of the project.
@@ -36,6 +39,7 @@ Department of Software Engineering
 
 
 Acknowledgement:
+=
 
 First of all thanks to Almighty Allah for giving us the ability to work on and complete such a project. Then I want to thank my parents for giving me the support for studying software engineering.
 Then I want to thank the authority of Software Engineering Department of FSIT
@@ -57,6 +61,7 @@ The project has indeed helped me to explore more knowledgeable avenues related t
 
 
 Abstract:
+=
 
 2 part have in our system (Admin/Manager & Reception staff)
 At first need to registration (unit user) this system then log in system. If any way forget (Admin / Manager) user name or password then anytime forget her registration. Registration time need this all information for user (User name, password, Email, Phone number, Gender). Admin add new Doctor & Staff in this system and admin change this information in the system (Update doctor information, Search any Doctor information, Delete any Doctor Information, Add new staff, Update staff Information, Search any staff Information, Delete any staff information (Doctor & staff Id is a main element in this system) ). Admin search any patient information from file (using patient Id) but don’t change any patient information this system. Only reception staff can change patient information.
@@ -79,6 +84,7 @@ Chapter 1: Introduction
 
 
 All problem solve in this system.
+==
             
 1.2 Scope
                      
@@ -95,6 +101,8 @@ All problem solve in this system.
 Chapter 2: Software Requirement Specification
 
 2.1 Functional and Non Functional Requirements
+=
+
 Functional Requirement	Non-Functional Requirement
 1)	Registration, Log in.
 2)	Doctor Add, Edit, Search, Delete
@@ -106,6 +114,7 @@ Functional Requirement	Non-Functional Requirement
 
 
 2.2 User Profile: Admin / Reception
+=
 
 User Class : Admin
 Type of User: Primary, Secondary
@@ -123,6 +132,7 @@ Other system used : No
 
 
 2.2 User Profile: Reception Staff
+=
 
 User class: Reception Staff
 Type of User : Primary
@@ -148,8 +158,9 @@ Chapter 3:
                    3 File (.txt).
                    3 Language: C & C++
 		   
-#
-Project Pictures	   
+
+Project Pictures
+==
 		   
 		   
 ![Screenshot_14](https://user-images.githubusercontent.com/31995155/57241780-9b344000-7053-11e9-9a6b-c394387b6001.png)
