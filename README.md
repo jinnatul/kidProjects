@@ -147,3 +147,16 @@ Chapter 3:
                    2 Code Blocks.
                    3 File (.txt).
                    3 Language: C & C++
+		   
+		   
+		   
+		   
+![Screenshot_14](https://user-images.githubusercontent.com/31995155/57241780-9b344000-7053-11e9-9a6b-c394387b6001.png)
+![Screenshot_15](https://user-images.githubusercontent.com/31995155/57241787-9cfe0380-7053-11e9-85e7-269a236e5124.png)
+![Screenshot_16](https://user-images.githubusercontent.com/31995155/57241790-9f605d80-7053-11e9-9a7c-721ddc64eb9a.png)
+![Screenshot_17](https://user-images.githubusercontent.com/31995155/57241792-a0918a80-7053-11e9-8734-e84ac6c4a06b.png)
+![Screenshot_18](https://user-images.githubusercontent.com/31995155/57241794-a25b4e00-7053-11e9-8d04-047c6492f114.png)
+![Screenshot_19](https://user-images.githubusercontent.com/31995155/57241804-a8512f00-7053-11e9-80a6-f1117d3dfae2.png)
+![Screenshot_20](https://user-images.githubusercontent.com/31995155/57241809-ab4c1f80-7053-11e9-8924-3a43a23d304a.png)
+![Screenshot_21](https://user-images.githubusercontent.com/31995155/57241812-ae471000-7053-11e9-9c12-7cf4fcd0b019.png)
+![Screenshot_22](https://user-images.githubusercontent.com/31995155/57241815-b1420080-7053-11e9-96de-c94d7de8cf73.png)
