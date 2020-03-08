@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #708090;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <PasswordField layoutX="301.0" layoutY="126.0" prefHeight="25.0" prefWidth="180.0" promptText="Username" />
+      <TextField layoutX="301.0" layoutY="161.0" prefHeight="25.0" prefWidth="180.0" promptText="Password" />
+      <TextField layoutX="301.0" layoutY="200.0" prefHeight="25.0" prefWidth="180.0" promptText="Email" />
+      <TextField layoutX="301.0" layoutY="236.0" prefHeight="25.0" prefWidth="180.0" promptText="Phone Number" />
+      <RadioButton layoutX="301.0" layoutY="276.0" mnemonicParsing="false" text="Male" />
+      <RadioButton layoutX="362.0" layoutY="276.0" mnemonicParsing="false" text="Female" />
+      <RadioButton layoutX="431.0" layoutY="276.0" mnemonicParsing="false" text="Other" />
+      <Button layoutX="428.0" layoutY="305.0" mnemonicParsing="false" text="Sing Up" />
+      <ChoiceBox layoutX="314.0" layoutY="91.0" prefWidth="150.0" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="24.0" layoutY="205.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="Pic/reg_pic.gif" ></Image>
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="24.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="Pic/hospital.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="292.0" layoutY="33.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="221.0" text="Fatema Harun Hospital">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="32.0" fitWidth="29.0" layoutX="263.0" layoutY="122.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="Pic/people.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="29.0" fitWidth="29.0" layoutX="263.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="Pic/lock.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="29.0" fitWidth="29.0" layoutX="264.0" layoutY="198.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="Pic/email.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="29.0" fitWidth="29.0" layoutX="264.0" layoutY="234.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="Pic/phone.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="29.0" fitWidth="29.0" layoutX="264.0" layoutY="272.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="Pic/gender.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

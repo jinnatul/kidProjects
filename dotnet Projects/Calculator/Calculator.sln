@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{1BA51F13-979E-4B92-AEA6-4A4CB3410B0F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "picture", "picture", "{A1E9D463-FF66-477D-ABB9-749B531738F1}"
+	ProjectSection(SolutionItems) = preProject
+		..\picture\Calculator_5122x.ico = ..\picture\Calculator_5122x.ico
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BA51F13-979E-4B92-AEA6-4A4CB3410B0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BA51F13-979E-4B92-AEA6-4A4CB3410B0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BA51F13-979E-4B92-AEA6-4A4CB3410B0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BA51F13-979E-4B92-AEA6-4A4CB3410B0F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {76A0F37D-7EED-45DC-ABB1-1349ACBC89BF}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,65 @@
+
+<!--Style add-->
+<link rel="stylesheet" type="text/css" href="/css/style.css">
+<link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <h3>Update Data</h3>
+    <!--Product Name-->
+    <form method="post" enctype="multipart/form-data" action="/update">
+    
+    <input type="hidden"  name="p_id" value="<%= data._id %>" class="form-control">
+    <div class="form-group row" >
+        <div class="col-md-1" style="float: left;">
+            <label for="p_name" class="col-sm-2 col-form-label" >Product Name:</label>
+        </div>
+        <div class="col-sm-3" style="float: left;">
+            <input type="text" name="p_name" value="<%= data.p_name %>" id="show_name" class="form-control">
+        </div>
+    </div>
+
+    <!--Category-->
+    <div class="form-group row" >
+        <div class="col-md-1" style="float: left;">
+            <label for="p_category" class="col-sm-2 col-form-label" >Category:</label>
+        </div>
+        <div class="col-sm-3" style="float: left;">
+            <input type="text" name="p_category" value="<%= data.p_category %>" class="form-control">
+        </div>
+    </div>
+
+    <!--Price-->
+    <div class="form-group row" >
+        <div class="col-md-1" style="float: left;">
+            <label for="p_price" class="col-sm-2 col-form-label" >Price:</label>
+        </div>
+        <div class="col-sm-3" style="float: left;">
+            <input type="text" name="p_price" value="<%= data.p_price %>"  class="form-control">
+        </div>
+    </div>
+
+
+     <!--Previous Picture-->
+    <div class="form-group row" >
+        <div class="col-md-1" style="float: left;">
+            <label for="p_price" class="col-sm-2 col-form-label" >Previous Image:</label>
+        </div>
+        <div class="col-sm-3" style="float: left;">
+            <img src="/<%= data.p_image %>">
+        </div>
+    </div>
+
+    <!--Input Picture-->
+    <div class="form-group row" >
+        <div class="col-lg-2" style="float: left;">
+            <input type="file" name="upl" class="form-control-file">
+        </div>
+    </div>
+
+    <!--Submit Button-->
+    <div class="form-group row" >
+        <div class="col-lg-2" style="float: left;">
+            <input type="submit" value="Update" class="btn btn-success">
+            <input type="button" value="Cancel" class="btn btn-danger" onClick="location.href='/'">
+        </div>
+    </div>
+</form>

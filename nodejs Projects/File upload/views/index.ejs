@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Upload Form</title>
+	<link rel="stylesheet" href="/css/bootstrap.min.css">
+	<style type="text/css">
+
+	</style>
+	
+    </style>
+
+
+
+<script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="/js/script.js"></script>
+<link rel="stylesheet" type="text/css" href="/css/style.css">
+<link rel="stylesheet" type="text/css" href="/css/w3.css">
+
+</head>
+<body>
+	<div class="container">
+
+		<!--Add From start-->
+		<div class="row">
+			<h2>Add Data</h2>
+
+			<form method="post" enctype="multipart/form-data" action="/">
+				
+				<!--Product Name-->
+				<div class="form-group row" >
+					<div class="col-md-1" style="float: left;">
+						<label for="p_name" class="col-sm-2 col-form-label" >Product Name:</label>
+					</div>
+					<div class="col-sm-3" style="float: left;">
+						<input type="text" name="p_name" placeholder="p_name" class="form-control">
+					</div>
+				</div>
+
+				<!--Category-->
+				<div class="form-group row" >
+					<div class="col-md-1" style="float: left;">
+						<label for="p_category" class="col-sm-2 col-form-label" >Category:</label>
+					</div>
+					<div class="col-sm-3" style="float: left;">
+						<input type="text" name="p_category" placeholder="p_category" class="form-control">
+					</div>
+				</div>
+
+				<!--Price-->
+				<div class="form-group row" >
+					<div class="col-md-1" style="float: left;">
+						<label for="p_price" class="col-sm-2 col-form-label" >Price:</label>
+					</div>
+					<div class="col-sm-3" style="float: left;">
+						<input type="text" name="p_price" placeholder="p_price" class="form-control">
+					</div>
+				</div>
+
+				<!--Input Picture-->
+				<div class="form-group row" >
+					<div class="col-lg-2" style="float: left;">
+						<input type="file" name="upl" class="form-control-file">
+					</div>
+				</div>
+
+				<!--Submit Button-->
+				<div class="form-group row" >
+					<div class="col-lg-2" style="float: left;">
+						<input type="submit" class="btn btn-primary">
+					</div>
+				</div>
+			</form>
+		</div>
+
+
+		<!--Tags start-->
+		<div class="search_menu">
+			<ul>
+				<li class="active" data-filter="*">All</li>
+				<li data-filter=".burger" class="burger">Burger</li>
+				<li data-filter=".pizza">Pizza</li>
+				<li data-filter=".bbq">BBQ</li>
+				<li data-filter=".others">Others</li>
+			</ul>
+		</div>
+
+		
+		<!--Update From start-->
+		<div id="update-form">
+			
+		</div>
+
+		<div class="row">
+			<% for (var i = data.length - 1; i >= 0; i--) { %>
+			<div class="col-sm-3">
+				<div class="thumbnail">
+				
+						<h3>P_Name: <%= data[i].p_name %></h3>
+						<!-- <h3><%= data[i]._id %></h3> -->
+						<img src="<%= data[i].p_image %>" class = "img-thumbnail">						
+						<h4 id="category">P_Category: <%= data[i].p_category %></h4>
+						<h4>P_Price: <%= data[i].p_price %></h4>
+						
+						<form method="post" action="/delete" class="w3-show-inline-block">
+							<input id="prodId" name="prodId" type="hidden" value="<%= data[i]._id %>">
+							<input type="submit"  class = "w3-btn w3-red" name="Delete" value="Delete">
+						</form>
+
+						<div class="w3-show-inline-block">
+								<button id="<%= data[i]._id %>"  class = "w3-btn w3-green btn_update" onClick="location.href='/update/<%= data[i]._id %>'">Update</button>
+						</div>
+						
+					
+					</div>
+				</div>
+			<% } %>
+		</div>
+	</div>
+</div>
+
+
+<script type="text/javascript">
+
+    var getId = function(id){
+	    var id = id;
+	   // console.log(id);
+		//alert(id);
+		document.getElementById("show_name").value = id;
+    }
+
+</script>
+	
+
+</body>
+</html>

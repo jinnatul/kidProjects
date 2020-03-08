@@ -1,0 +1,5 @@
+<root>
+    <item name='javafx.scene.Node layoutX'>
+        <annotation name='java.lang.Deprecated'/>
+    </item>
+</root>

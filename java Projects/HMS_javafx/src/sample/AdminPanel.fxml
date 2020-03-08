@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="720.0" style="-fx-background-color: #ADD8E6;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AdminPanel">
+    <children>
+        <ImageView fitHeight="155.0" fitWidth="242.0" layoutX="67.0" layoutY="90.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../Pic/patient.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="155.0" fitWidth="200.0" layoutX="424.0" layoutY="90.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../Pic/staff.jpg" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="170.0" fitWidth="545.0" layoutX="77.0" layoutY="283.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../Pic/staff.png" />
+            </image>
+        </ImageView>
+        <Button layoutX="639.0" layoutY="19.0" mnemonicParsing="false" onAction="#LogOut" prefHeight="25.0" prefWidth="67.0" style="-fx-background-color: #1E90FF;" text="Log Out" textFill="#1416b2" />
+        <Button layoutX="127.0" layoutY="250.0" mnemonicParsing="false" onAction="#Room" prefHeight="24.0" prefWidth="87.0" style="-fx-background-color: #1E90FF;" text="Room Info" textFill="#220000" />
+        <Button layoutX="477.0" layoutY="250.0" mnemonicParsing="false" onAction="#Staff" prefHeight="15.0" prefWidth="80.0" style="-fx-background-color: #1E90FF;" text="Staff Info" textFill="#070000" />
+        <Button layoutX="315.0" layoutY="454.0" mnemonicParsing="false" onAction="#Doctor" prefHeight="15.0" prefWidth="80.0" style="-fx-background-color: #1E90FF;" text="Doctor Info" />
+      <Label layoutX="166.0" layoutY="5.0" prefHeight="43.0" prefWidth="417.0" text="Welcome To Admin Panel">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+    </children>
+</Pane>

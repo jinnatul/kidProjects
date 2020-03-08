@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1080.0" style="-fx-background-color: #ADD8E6;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.RoomAndFinancialInfo">
+    <children>
+        <Label layoutX="31.0" layoutY="130.0" prefHeight="17.0" prefWidth="70.0" text="Room No">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="31.0" layoutY="211.0" prefHeight="21.0" prefWidth="70.0" text="Doctor Id">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="32.0" layoutY="255.0" prefHeight="21.0" prefWidth="91.0" text="Doctor Name">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="32.0" layoutY="293.0" text="Staff Id">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="32.0" layoutY="333.0" text="Staff Name">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="32.0" layoutY="377.0" text="Staff Work Name">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <TextField fx:id="txtRoomNo" layoutX="154.0" layoutY="130.0" />
+        <TextField fx:id="txtProblemType" layoutX="154.0" layoutY="170.0" />
+        <TextField fx:id="txtDoctorId" layoutX="154.0" layoutY="209.0" />
+        <TextField fx:id="txtDoctorName" layoutX="154.0" layoutY="252.0" />
+        <TextField fx:id="txtStaffId" layoutX="155.0" layoutY="291.0" />
+        <TextField fx:id="txtStaffName" layoutX="154.0" layoutY="333.0" />
+        <Label layoutX="342.0" layoutY="14.0" prefHeight="35.0" prefWidth="348.0" text="Room Information" underline="true">
+            <font>
+                <Font size="35.0" />
+            </font>
+        </Label>
+        <TableView layoutX="345.0" layoutY="98.0" prefHeight="503.0" prefWidth="735.0">
+            <columns>
+                <TableColumn prefWidth="75.0" text="Room No" />
+                <TableColumn prefWidth="156.0" text="Problem Type" />
+                <TableColumn prefWidth="63.0" text="Doctor Id" />
+                <TableColumn prefWidth="127.0" text="Doctor Name" />
+                <TableColumn prefWidth="58.0" text="Staff Id" />
+                <TableColumn prefWidth="107.0" text="Staff Name" />
+                <TableColumn prefWidth="148.0" text="Staff Work Name" />
+            </columns>
+        </TableView>
+        <Label layoutX="31.0" layoutY="170.0" prefHeight="21.0" prefWidth="101.0" text="Problem Type">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <TextField fx:id="txtStaffWorkName" layoutX="155.0" layoutY="375.0" />
+        <Button layoutX="79.0" layoutY="483.0" mnemonicParsing="false" onAction="#SearchRoom" style="-fx-background-color: #1E90FF;" text="Search" />
+        <ImageView fitHeight="43.0" fitWidth="48.0" layoutX="84.0" layoutY="432.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../Pic/search.png" />
+            </image>
+        </ImageView>
+        <Button layoutX="1037.0" layoutY="5.0" mnemonicParsing="false" onAction="#Backmain" text="Back" />
+      <Button layoutX="185.0" layoutY="486.0" mnemonicParsing="false" onAction="#PatientTable" style="-fx-background-color: #1E90FF;" text="Patient Table" />
+      <ImageView fitHeight="51.0" fitWidth="74.0" layoutX="190.0" layoutY="435.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Pic/patient.png" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>

@@ -1,0 +1,41 @@
+/* Image size */
+img{
+    width: 200px;
+    height: 120px;
+}
+
+
+/* Tags */
+.search_menu {
+    text-align: center;
+}
+.search_menu ul li{
+	display: inline-block;
+	margin: 0;
+	list-style: none;
+	padding: 10px 25px;
+	border: 1px solid tomato;
+	cursor: pointer;
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition:  all .5s ease;
+
+}
+
+.search_menu ul li:hover {
+	background: #4CAF50;
+	color: #ffffff;
+}
+
+.active {
+	background: #4CAF50;
+	color: #ffffff;
+}
+
+/* Button update */
+
+.btn_update {
+   border: rgb(255, 1, 1);
+}
