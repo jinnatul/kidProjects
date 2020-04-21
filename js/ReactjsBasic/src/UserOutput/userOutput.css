@@ -1,0 +1,8 @@
+.userOutputStyle {
+    text-align: center;
+    width: 60%;
+    padding: 16px;
+    margin: 16px;
+    border: 2px solid black;
+    background-color: rgb(169, 253, 180);
+}
