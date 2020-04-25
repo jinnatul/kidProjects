@@ -238,5 +238,255 @@
         "Total_Positive": 51,
         "Total_Deaths": 5,
         "Total_Recovered": 25
+    },
+    {
+        "Date": "2020-04-01",
+        "Today_Tests": 157,
+        "Today_Positive": 3,
+        "Today_Deaths": 1,
+        "Today_Recovered": 6,
+        "Total_Positive": 54,
+        "Total_Deaths": 6,
+        "Total_Recovered": 25
+    },
+    {
+        "Date": "2020-04-02",
+        "Today_Tests": 141,
+        "Today_Positive": 2,
+        "Today_Deaths": 0,
+        "Today_Recovered": 0,
+        "Total_Positive": 56,
+        "Total_Deaths": 6,
+        "Total_Recovered": 25
+    },
+    {
+        "Date": "2020-04-03",
+        "Today_Tests": 203,
+        "Today_Positive": 5,
+        "Today_Deaths": 0,
+        "Today_Recovered": 1,
+        "Total_Positive": 61,
+        "Total_Deaths": 6,
+        "Total_Recovered": 26
+    },
+    {
+        "Date": "2020-04-04",
+        "Today_Tests": 434,
+        "Today_Positive": 9,
+        "Today_Deaths": 2,
+        "Today_Recovered": 4,
+        "Total_Positive": 70,
+        "Total_Deaths": 8,
+        "Total_Recovered": 30
+    },
+    {
+        "Date": "2020-04-05",
+        "Today_Tests": 367,
+        "Today_Positive": 18,
+        "Today_Deaths": 1,
+        "Today_Recovered": 3,
+        "Total_Positive": 88,
+        "Total_Deaths": 9,
+        "Total_Recovered": 33
+    },
+    {
+        "Date": "2020-04-06",
+        "Today_Tests": 468,
+        "Today_Positive": 35,
+        "Today_Deaths": 3,
+        "Today_Recovered": 0,
+        "Total_Positive": 123,
+        "Total_Deaths": 12,
+        "Total_Recovered": 33
+    },
+    {
+        "Date": "2020-04-07",
+        "Today_Tests": 792,
+        "Today_Positive": 41,
+        "Today_Deaths": 5,
+        "Today_Recovered": 0,
+        "Total_Positive": 164,
+        "Total_Deaths": 17,
+        "Total_Recovered": 33
+    },
+    {
+        "Date": "2020-04-08",
+        "Today_Tests": 981,
+        "Today_Positive": 54,
+        "Today_Deaths": 3,
+        "Today_Recovered": 0,
+        "Total_Positive": 218,
+        "Total_Deaths": 20,
+        "Total_Recovered": 33
+    },
+    {
+        "Date": "2020-04-09",
+        "Today_Tests": 1097,
+        "Today_Positive": 112,
+        "Today_Deaths": 1,
+        "Today_Recovered": 0,
+        "Total_Positive": 330,
+        "Total_Deaths": 21,
+        "Total_Recovered": 33
+    },
+    {
+        "Date": "2020-04-10",
+        "Today_Tests": 1184,
+        "Today_Positive": 94,
+        "Today_Deaths": 6,
+        "Today_Recovered": 0,
+        "Total_Positive": 424,
+        "Total_Deaths": 27,
+        "Total_Recovered": 33
+    },
+    {
+        "Date": "2020-04-11",
+        "Today_Tests": 954,
+        "Today_Positive": 58,
+        "Today_Deaths": 3,
+        "Today_Recovered": 3,
+        "Total_Positive": 482,
+        "Total_Deaths": 30,
+        "Total_Recovered": 36
+    },
+    {
+        "Date": "2020-04-12",
+        "Today_Tests": 1340,
+        "Today_Positive": 139,
+        "Today_Deaths": 4,
+        "Today_Recovered": 3,
+        "Total_Positive": 621,
+        "Total_Deaths": 34,
+        "Total_Recovered": 39
+    },
+    {
+        "Date": "2020-04-13",
+        "Today_Tests": 1570,
+        "Today_Positive": 182,
+        "Today_Deaths": 5,
+        "Today_Recovered": 3,
+        "Total_Positive": 803,
+        "Total_Deaths": 39,
+        "Total_Recovered": 42
+    },
+    {
+        "Date": "2020-04-14",
+        "Today_Tests": 1905,
+        "Today_Positive": 209,
+        "Today_Deaths": 7,
+        "Today_Recovered": 0,
+        "Total_Positive": 1012,
+        "Total_Deaths": 46,
+        "Total_Recovered": 42
+    },
+    {
+        "Date": "2020-04-15",
+        "Today_Tests": 1740,
+        "Today_Positive": 219,
+        "Today_Deaths": 4,
+        "Today_Recovered": 7,
+        "Total_Positive": 1231,
+        "Total_Deaths": 50,
+        "Total_Recovered": 49
+    },
+    {
+        "Date": "2020-04-16",
+        "Today_Tests": 2135,
+        "Today_Positive": 341,
+        "Today_Deaths": 10,
+        "Today_Recovered": 0,
+        "Total_Positive": 1572,
+        "Total_Deaths": 60,
+        "Total_Recovered": 49
+    },
+    {
+        "Date": "2020-04-17",
+        "Today_Tests": 2190,
+        "Today_Positive": 266,
+        "Today_Deaths": 15,
+        "Today_Recovered": 9,
+        "Total_Positive": 1838,
+        "Total_Deaths": 75,
+        "Total_Recovered": 58
+    },
+    {
+        "Date": "2020-04-18",
+        "Today_Tests": 2114,
+        "Today_Positive": 306,
+        "Today_Deaths": 9,
+        "Today_Recovered": 8,
+        "Total_Positive": 2144,
+        "Total_Deaths": 84,
+        "Total_Recovered": 66
+    },
+    {
+        "Date": "2020-04-19",
+        "Today_Tests": 2634,
+        "Today_Positive": 312,
+        "Today_Deaths": 7,
+        "Today_Recovered": 9,
+        "Total_Positive": 2456,
+        "Total_Deaths": 91,
+        "Total_Recovered": 75
+    },
+    {
+        "Date": "2020-04-20",
+        "Today_Tests": 2663,
+        "Today_Positive": 492,
+        "Today_Deaths": 10,
+        "Today_Recovered": 10,
+        "Total_Positive": 2948,
+        "Total_Deaths": 101,
+        "Total_Recovered": 85
+    },
+    {
+        "Date": "2020-04-21",
+        "Today_Tests": 2974,
+        "Today_Positive": 434,
+        "Today_Deaths": 9,
+        "Today_Recovered": 2,
+        "Total_Positive": 3382,
+        "Total_Deaths": 110,
+        "Total_Recovered": 87
+    },
+    {
+        "Date": "2020-04-22",
+        "Today_Tests": 3052,
+        "Today_Positive": 390,
+        "Today_Deaths": 10,
+        "Today_Recovered": 5,
+        "Total_Positive": 3772,
+        "Total_Deaths": 120,
+        "Total_Recovered": 92
+    },
+    {
+        "Date": "2020-04-23",
+        "Today_Tests": 3416,
+        "Today_Positive": 414,
+        "Today_Deaths": 7,
+        "Today_Recovered": 16,
+        "Total_Positive": 4186,
+        "Total_Deaths": 127,
+        "Total_Recovered": 108
+    },
+    {
+        "Date": "2020-04-24",
+        "Today_Tests": 3430,
+        "Today_Positive": 503,
+        "Today_Deaths": 4,
+        "Today_Recovered": 4,
+        "Total_Positive": 4689,
+        "Total_Deaths": 131,
+        "Total_Recovered": 112
+    },
+    {
+        "Date": "2020-04-25",
+        "Today_Tests": 3337,
+        "Today_Positive": 309,
+        "Today_Deaths": 9,
+        "Today_Recovered": 0,
+        "Total_Positive": 4998,
+        "Total_Deaths": 140,
+        "Total_Recovered": 112
     }
 ]
