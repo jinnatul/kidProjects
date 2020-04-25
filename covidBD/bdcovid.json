@@ -1,0 +1,242 @@
+[
+    {
+        "Date": "2020-03-08",
+        "Today_Tests": "x",
+        "Today_Positive": 3,
+        "Today_Deaths": 0,
+        "Today_Recovered": 0,
+        "Total_Positive": 3,
+        "Total_Deaths": 0,
+        "Total_Recovered": 0
+    },
+    {
+        "Date": "2020-03-09",
+        "Today_Tests": "x",
+        "Today_Positive": 0,
+        "Today_Deaths": 0,
+        "Today_Recovered": 0,
+        "Total_Positive": 3,
+        "Total_Deaths": 0,
+        "Total_Recovered": 0
+    },
+    {
+        "Date": "2020-03-10",
+        "Today_Tests": "x",
+        "Today_Positive": 0,
+        "Today_Deaths": 0,
+        "Today_Recovered": 0,
+        "Total_Positive": 3,
+        "Total_Deaths": 0,
+        "Total_Recovered": 0
+    },
+    {
+        "Date": "2020-03-11",
+        "Today_Tests": 16,
+        "Today_Positive": 0,
+        "Today_Deaths": 0,
+        "Today_Recovered": 0,
+        "Total_Positive": 3,
+        "Total_Deaths": 0,
+        "Total_Recovered": 0
+    },
+    {
+        "Date": "2020-03-12",
+        "Today_Tests": 24,
+        "Today_Positive": 0,
+        "Today_Deaths": 0,
+        "Today_Recovered": 0,
+        "Total_Positive": 3,
+        "Total_Deaths": 0,
+        "Total_Recovered": 0
+    },
+    {
+        "Date": "2020-03-13",
+        "Today_Tests": 24,
+        "Today_Positive": 0,
+        "Today_Deaths": 0,
+        "Today_Recovered": 0,
+        "Total_Positive": 3,
+        "Total_Deaths": 0,
+        "Total_Recovered": 0
+    },
+    {
+        "Date": "2020-03-14",
+        "Today_Tests": 30,
+        "Today_Positive": 2,
+        "Today_Deaths": 0,
+        "Today_Recovered": 0,
+        "Total_Positive": 5,
+        "Total_Deaths": 0,
+        "Total_Recovered": 0
+    },
+    {
+        "Date": "2020-03-15",
+        "Today_Tests": 27,
+        "Today_Positive": 0,
+        "Today_Deaths": 0,
+        "Today_Recovered": 0,
+        "Total_Positive": 5,
+        "Total_Deaths": 0,
+        "Total_Recovered": 0
+    },
+    {
+        "Date": "2020-03-16",
+        "Today_Tests": 25,
+        "Today_Positive": 3,
+        "Today_Deaths": 0,
+        "Today_Recovered": 2,
+        "Total_Positive": 8,
+        "Total_Deaths": 0,
+        "Total_Recovered": 2
+    },
+    {
+        "Date": "2020-03-17",
+        "Today_Tests": 49,
+        "Today_Positive": 2,
+        "Today_Deaths": 0,
+        "Today_Recovered": 1,
+        "Total_Positive": 10,
+        "Total_Deaths": 0,
+        "Total_Recovered": 3
+    },
+    {
+        "Date": "2020-03-18",
+        "Today_Tests": 39,
+        "Today_Positive": 4,
+        "Today_Deaths": 1,
+        "Today_Recovered": 0,
+        "Total_Positive": 14,
+        "Total_Deaths": 1,
+        "Total_Recovered": 3
+    },
+    {
+        "Date": "2020-03-19",
+        "Today_Tests": 46,
+        "Today_Positive": 3,
+        "Today_Deaths": 0,
+        "Today_Recovered": 0,
+        "Total_Positive": 17,
+        "Total_Deaths": 1,
+        "Total_Recovered": 3
+    },
+    {
+        "Date": "2020-03-20",
+        "Today_Tests": 36,
+        "Today_Positive": 3,
+        "Today_Deaths": 0,
+        "Today_Recovered": 0,
+        "Total_Positive": 20,
+        "Total_Deaths": 1,
+        "Total_Recovered": 3
+    },
+    {
+        "Date": "2020-03-21",
+        "Today_Tests": 36,
+        "Today_Positive": 5,
+        "Today_Deaths": 1,
+        "Today_Recovered": 0,
+        "Total_Positive": 25,
+        "Total_Deaths": 2,
+        "Total_Recovered": 3
+    },
+    {
+        "Date": "2020-03-22",
+        "Today_Tests": 65,
+        "Today_Positive": 2,
+        "Today_Deaths": 0,
+        "Today_Recovered": 0,
+        "Total_Positive": 27,
+        "Total_Deaths": 2,
+        "Total_Recovered": 3
+    },
+    {
+        "Date": "2020-03-23",
+        "Today_Tests": 56,
+        "Today_Positive": 6,
+        "Today_Deaths": 1,
+        "Today_Recovered": 0,
+        "Total_Positive": 33,
+        "Total_Deaths": 3,
+        "Total_Recovered": 3
+    },
+    {
+        "Date": "2020-03-24",
+        "Today_Tests": 92,
+        "Today_Positive": 6,
+        "Today_Deaths": 1,
+        "Today_Recovered": 2,
+        "Total_Positive": 39,
+        "Total_Deaths": 4,
+        "Total_Recovered": 5
+    },
+    {
+        "Date": "2020-03-25",
+        "Today_Tests": 82,
+        "Today_Positive": 0,
+        "Today_Deaths": 1,
+        "Today_Recovered": 2,
+        "Total_Positive": 39,
+        "Total_Deaths": 5,
+        "Total_Recovered": 7
+    },
+    {
+        "Date": "2020-03-26",
+        "Today_Tests": 126,
+        "Today_Positive": 5,
+        "Today_Deaths": 0,
+        "Today_Recovered": 4,
+        "Total_Positive": 44,
+        "Total_Deaths": 5,
+        "Total_Recovered": 11
+    },
+    {
+        "Date": "2020-03-27",
+        "Today_Tests": 106,
+        "Today_Positive": 4,
+        "Today_Deaths": 0,
+        "Today_Recovered": 0,
+        "Total_Positive": 48,
+        "Total_Deaths": 5,
+        "Total_Recovered": 11
+    },
+    {
+        "Date": "2020-03-28",
+        "Today_Tests": 50,
+        "Today_Positive": 0,
+        "Today_Deaths": 0,
+        "Today_Recovered": 4,
+        "Total_Positive": 48,
+        "Total_Deaths": 5,
+        "Total_Recovered": 15
+    },
+    {
+        "Date": "2020-03-29",
+        "Today_Tests": 109,
+        "Today_Positive": 0,
+        "Today_Deaths": 0,
+        "Today_Recovered": 0,
+        "Total_Positive": 48,
+        "Total_Deaths": 5,
+        "Total_Recovered": 15
+    },
+    {
+        "Date": "2020-03-30",
+        "Today_Tests": 153,
+        "Today_Positive": 1,
+        "Today_Deaths": 0,
+        "Today_Recovered": 4,
+        "Total_Positive": 49,
+        "Total_Deaths": 5,
+        "Total_Recovered": 19
+    },
+    {
+        "Date": "2020-03-31",
+        "Today_Tests": 140,
+        "Today_Positive": 2,
+        "Today_Deaths": 0,
+        "Today_Recovered": 6,
+        "Total_Positive": 51,
+        "Total_Deaths": 5,
+        "Total_Recovered": 25
+    }
+]
