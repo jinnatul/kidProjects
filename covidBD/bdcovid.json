@@ -618,5 +618,15 @@
         "Total_Positive": 13134,
         "Total_Deaths": 206,
         "Total_Recovered": 2101
+    },
+    {
+        "Date": "2020-05-09",
+        "Today_Tests": 5465,
+        "Today_Positive": 636,
+        "Today_Deaths": 8,
+        "Today_Recovered": 313,
+        "Total_Positive": 13770,
+        "Total_Deaths": 214,
+        "Total_Recovered": 2414
     }
 ]
