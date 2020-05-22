@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/map-style.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="customContainer">
+        <div class="row">
+          <div class="col s12 l12">
+            <h4 class="center-align">Map Visualization</h4>
+            <div class="card round hoverable">
+              <div class="row">
+                <div class="col s12 l3">
+                  <br><br>
+                  <div id="desktopIndicator" class="container">
+                    <a class="waves-effect waves-light btn btn-small red accent-2 chi">Sylhet</a><br><br>
+                    <a class="waves-effect waves-light btn btn-small" style="background-color: #2bbd7e;">Dhaka</a><br><br>
+                    <a class="waves-effect waves-light btn btn-small pink accent-2">Khulna</a><br><br>
+                    <a class="waves-effect waves-light btn btn-small light-blue">Barishal</a><br><br>
+                    <a class="waves-effect waves-light btn btn-small purple lighten-1">Chattogram</a><br><br>
+                    <a class="waves-effect waves-light btn btn-small deep-orange lighten-1">Mymensingh</a><br><br>
+                    <a class="waves-effect waves-light btn btn-small cyan lighten-1">Rajshahi</a><br><br>
+                    <a class="waves-effect waves-light btn btn-small orange">Rangpur</a><br><br>
+                  </div>
+                </div>
+                <div id="mapColumn" class="col s12 l5">
+                  <div id="bangladesh"></div>
+                </div>
+                <div id="selectedDistrictInfoCards" class="col s12 l4">
+                  <div class="row">
+                    <div class="col s12 l12">
+                      <div class="container">
+                        <div class="card round center-align">
+                          <div class="card-content">
+                            <div class="row">
+                              <div class="col s12 m12 l12">
+                                <span class="countNumber" style="color: rgb(0, 122, 204);"
+                                  id="selectedDistrictCount"></span><br />
+                                <span id="selectedDistrict" class="gsans"></span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col s12 l12">
+                      <div class="container">
+                        <div class="card round center-align">
+                          <div class="card-content">
+                            <div class="row">
+                              <div class="col s12 m12 l12">
+                                <span class="countNumber" style="color: rgb(0, 122, 204);"
+                                  id="selectedDistrictPercentage"></span><br />
+                                <span class="gsans">affected compare to total affected in Bangladesh.</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col s12 l12">
+                      <div class="container">
+                        <div id="divisionCard" class="card round center-align">
+                          <div class="card-content">
+                            <div class="row">
+                              <div class="col s12 m12 l12">
+                                <span class="countNumber" style="color: rgb(0, 122, 204);"
+                                  id="selectedDivisionCount"></span><br />
+                                <span id="selectedDivisionName" class="gsans"></span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!--Js section-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/map.js"></script>
+    <script src="js/map-controller.js"></script>
+
+</body>
+</html>
