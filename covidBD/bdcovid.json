@@ -968,5 +968,15 @@
         "Total_Positive": 81523,
         "Total_Deaths": 1095,
         "Total_Recovered": 17250
+    },
+    {
+        "Date": "2020-06-13",
+        "Today_Tests": 16638,
+        "Today_Positive": 2856,
+        "Today_Deaths": 44,
+        "Today_Recovered": 578,
+        "Total_Positive": 84389,
+        "Total_Deaths": 1139,
+        "Total_Recovered": 17827
     }
 ]
