@@ -1207,6 +1207,7 @@
         "Today_Recovered": 3524,
         "Total_Positive": 165618,
         "Total_Deaths": 2096,
-        "Total_Recovered": 76149
+        "Total_Recovered": 76149,
+        "Total_Tests": 835074
     }
 ]
