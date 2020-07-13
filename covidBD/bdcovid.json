@@ -1275,5 +1275,16 @@
         "Total_Deaths": 2352,
         "Total_Recovered": 93614,
         "Total_Tests": 943524
+    },
+    {
+        "Date": "2020-07-13",
+        "Today_Tests": 12423,
+        "Today_Positive": 3099,
+        "Today_Deaths": 39,
+        "Today_Recovered": 4703,
+        "Total_Positive": 186894,
+        "Total_Deaths": 2391,
+        "Total_Recovered": 98317,
+        "Total_Tests": 955947
     }
 ]
