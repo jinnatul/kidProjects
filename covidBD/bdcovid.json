@@ -1661,5 +1661,27 @@
         "Total_Deaths": 3740,
         "Total_Recovered": 162825,
         "Total_Tests": 1378819
+    },
+    {
+        "Date": "2020-08-19",
+        "Today_Tests": 14678,
+        "Today_Positive": 2747,
+        "Today_Deaths": 41,
+        "Today_Recovered": 2913,
+        "Total_Positive": 285091,
+        "Total_Deaths": 3781,
+        "Total_Recovered": 165738,
+        "Total_Tests": 1393497
+    },
+    {
+        "Date": "2020-08-20",
+        "Today_Tests": 14059,
+        "Today_Positive": 2868,
+        "Today_Deaths": 41,
+        "Today_Recovered": 3253,
+        "Total_Positive": 287959,
+        "Total_Deaths": 3822,
+        "Total_Recovered": 168991,
+        "Total_Tests": 1407556
     }
 ]
