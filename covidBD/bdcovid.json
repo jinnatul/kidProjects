@@ -1738,5 +1738,16 @@
         "Total_Deaths": 4028,
         "Total_Recovered": 186756,
         "Total_Tests": 1470191
+    },
+    {
+        "Date": "2020-08-26",
+        "Today_Tests": 15070,
+        "Today_Positive": 2519,
+        "Today_Deaths": 54,
+        "Today_Recovered": 3427,
+        "Total_Positive": 302147,
+        "Total_Deaths": 4082,
+        "Total_Recovered": 190183,
+        "Total_Tests": 1485261
     }
 ]
