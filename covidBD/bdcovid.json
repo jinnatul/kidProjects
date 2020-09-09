@@ -1848,5 +1848,49 @@
         "Total_Deaths": 4412,
         "Total_Recovered": 216191,
         "Total_Tests": 1605111
+    },
+    {
+        "Date": "2020-09-05",
+        "Today_Tests": 12847,
+        "Today_Positive": 1950,
+        "Today_Deaths": 35,
+        "Today_Recovered": 1661,
+        "Total_Positive": 323565,
+        "Total_Deaths": 4447,
+        "Total_Recovered": 217852,
+        "Total_Tests": 1617958
+    },
+    {
+        "Date": "2020-09-06",
+        "Today_Tests": 11354,
+        "Today_Positive": 1592,
+        "Today_Deaths": 32,
+        "Today_Recovered": 3423,
+        "Total_Positive": 325157,
+        "Total_Deaths": 4479,
+        "Total_Recovered": 221275,
+        "Total_Tests": 1629312
+    },
+    {
+        "Date": "2020-09-07",
+        "Today_Tests": 15412,
+        "Today_Positive": 2202,
+        "Today_Deaths": 37,
+        "Today_Recovered": 3298,
+        "Total_Positive": 327959,
+        "Total_Deaths": 4516,
+        "Total_Recovered": 224573,
+        "Total_Tests": 1644724
+    },
+    {
+        "Date": "2020-09-08",
+        "Today_Tests": 14973,
+        "Today_Positive": 1892,
+        "Today_Deaths": 36,
+        "Today_Recovered": 3236,
+        "Total_Positive": 329251,
+        "Total_Deaths": 4552,
+        "Total_Recovered": 227809,
+        "Total_Tests": 1659697
     }
 ]
